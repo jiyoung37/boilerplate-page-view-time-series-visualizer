@@ -5,7 +5,7 @@ from pandas.plotting import register_matplotlib_converters
 register_matplotlib_converters()
 
 # Import data (Make sure to parse dates. Consider setting index column to 'date'.)
-filename = r'C:\Users\europ\Documents\PythonProjects\boilerplate-page-view-time-series-visualizer\fcc-forum-pageviews.csv'
+filename = r'C:\Users\europ\Documents\Github_clone\boilerplate-page-view-time-series-visualizer\fcc-forum-pageviews.csv'
 df = pd.read_csv(filename, index_col='date', parse_dates=True)
 
 # Clean data
